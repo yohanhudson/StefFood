@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <ui:composition>
+
+        <p:dialog id="ProdutoEditDlg" widgetVar="ProdutoEditDialog" modal="true" resizable="false" appendTo="@(body)" header="Alterar Produto">
+            <h:form id="ProdutoEditForm">
+                <h:panelGroup id="display">
+                    <p:panelGrid columns="1">
+                       
+                        <p:outputLabel value="nome" for="name" />
+                        <p:inputText id="name" value="#{produtoController.selected.name}" title="Nome" required="true" requiredMessage="Nome Obrigatório"/>
+                        
+                        <p:outputLabel value="descricao" for="descricao" />
+                        <p:inputText id="descricao" value="#{produtoController.selected.descricao}" title="descricao" required="true" requiredMessage="descricao Obrigatório"/>
+                        
+                        <p:outputLabel value="valor" for="valor" />
+                        <p:inputText id="valor" value="#{produtoController.selected.valor}" title="valor" required="true" requiredMessage="Email Obrigatório"/>
+                      
+                    </p:panelGrid>
+                    <p:commandButton actionListener="#{produtoController.update}" value="Salvar" update="display,:ProdutoListForm:datalist,:growl" oncomplete="handleSubmit(args, 'ProdutoEditDialog');"/>
+                    <p:commandButton value="Cancelar" onclick="ProdutoEditDialog.hide()"/>
+                </h:panelGroup>
+            </h:form>
+        </p:dialog>
+
+    </ui:composition>
+</html>
