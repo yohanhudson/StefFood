@@ -5,6 +5,26 @@
         <group>
             <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/bean/LojaFacade.java</file>
             <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/bean/AbstractFacade.java</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/clientes/IncluirCliente.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/produtos/ProdutoIncluir.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/template.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/dao/Loja.java</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/controller/ProdutoController.java</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/dao/Produto.java</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/controller/LojaController.java</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/clientes/ListarCliente.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/bean/ProdutoFacade.java</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/produtos/ProdutoListar.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/controller/util/JsfUtil.java</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/lojas/Editar.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/produtos/ProdutoEditar.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/lojas/Listar.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/bean/ClienteFacade.java</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/index.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/controller/ClienteController.java</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/lojas/Incluir.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/web/clientes/EditarCliente.xhtml</file>
+            <file>file:/C:/Users/ythudson/OneDrive%20-%20Stefanini/Documents/NetBeansProjects/stefanini-ythudson/src/java/dao/Cliente.java</file>
         </group>
     </open-files>
 </project-private>
